@@ -482,7 +482,15 @@ footer {
   color: #888;
   font-size: 14px;
 }
+.hero {
+  position: relative;
+  z-index: 2;
+}
 
+header::before,
+header::after {
+  pointer-events: none;
+}
 </style>
 </head>
 
