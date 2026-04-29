@@ -302,6 +302,25 @@ footer {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
 }
+  .thumbnail {
+  position: relative;
+  display: block;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  background: rgba(0,0,0,0.6);
+  padding: 10px 15px;
+  border-radius: 50%;
+}
+
+.thumbnail:hover {
+  opacity: 0.8;
+}
 </style>
 </head>
 
