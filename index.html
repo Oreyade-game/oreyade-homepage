@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
+　<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
 <title>おれやでのゲーム部屋｜公式サイト</title>
 
@@ -245,6 +246,56 @@ footer {
 .video-card:hover .play-button {
   transform: translate(-50%, -50%) scale(1.2);
   background: rgba(255,0,0,1);
+}
+  /* スマホ対応 */
+@media (max-width: 768px) {
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .buttons {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    padding: 14px;
+  }
+
+  main {
+    padding: 16px;
+  }
+
+  section h2 {
+    font-size: 22px;
+  }
+
+  .video-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .video-card {
+    margin-bottom: 20px;
+  }
+
+  .genre-grid {
+    grid-template-columns: 1fr;
+  }
+
+  iframe {
+    height: 200px;
+  }
+}
+  .thumbnail img {
+  width: 100%;
+  height: auto;
 }
 </style>
 </head>
