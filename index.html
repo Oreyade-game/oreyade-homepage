@@ -297,6 +297,11 @@ footer {
   width: 100%;
   height: auto;
 }
+  .video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
 </style>
 </head>
 
@@ -336,22 +341,21 @@ footer {
 
   <div class="video-card">
 
- <div class="thumbnail">
-  <img src="https://img.youtube.com/vi/9F11RcHL_vA/maxresdefault.jpg" alt="動画サムネ">
-  <div class="play-button">▶</div>
-</div>
-
-  <a class="btn" href="https://youtu.be/9F11RcHL_vA" target="_blank">
-    ▶ YouTubeで動画を見る
+  <a href="https://youtu.be/zZTGqJqdisw" target="_blank" class="thumbnail">
+    <img src="https://img.youtube.com/vi/zZTGqJqdisw/maxresdefault.jpg">
+    <div class="play-button">▶</div>
   </a>
 
   <div class="video-info">
-    <h3>最新動画タイトル</h3>
-    <p>ここに動画の説明を入れる</p>
+    <h3>動画タイトル</h3>
+    <p>簡単な説明文</p>
+
+    <a class="btn" href="https://youtu.be/zZTGqJqdisw" target="_blank">
+      ▶ 見る
+    </a>
   </div>
 
 </div>
-
   
   </div>
 </section>
